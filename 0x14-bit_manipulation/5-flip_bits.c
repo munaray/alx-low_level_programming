@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * A function that flips a bits from one number to another
- * given n as first num and m as second num
+ * flip_bits - A function that flips a bits from one number to another
+ * @n: as first num
+ * @m: as second num
  * Return: number of bits to change
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
