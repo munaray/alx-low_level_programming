@@ -2,16 +2,15 @@
 
 /**
  * delete_dnodeint_at_index - deletes the node at index of a
- * dlistint_t linked list
- *
+ * doubly linked list
  * @head: head of the list
  * @index: index of the new node
- * Return: 1 if it succeeded, -1 if it failed
+ * Return: -1 on failure otherwise
+ * return 1
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	dlistint_t *h1;
-	dlistint_t *h2;
+	dlistint_t *h1, *h2;
 	unsigned int i;
 
 	h1 = *head;

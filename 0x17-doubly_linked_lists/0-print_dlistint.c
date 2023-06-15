@@ -2,7 +2,7 @@
 
 /**
  * print_dlistint - prints all the elements of a
- * double linked list
+ * doubly linked list
  * @h: head of the list
  * Return: the nodes number
  */

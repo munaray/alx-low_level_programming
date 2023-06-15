@@ -2,8 +2,7 @@
 
 /**
  * dlistint_len - returns the number of elements in
- * a double linked list
- *
+ * a doubly linked list
  * @h: head of the list
  * Return: the nodes number
  */
